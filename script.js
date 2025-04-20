@@ -1,5 +1,5 @@
 const email = new URLSearchParams(window.location.search).get("email");
-const scriptBase = "https://script.google.com/macros/s/AKfycbwcgig5E7bySpAhOOCrZWA7T7mdhTMd6sFwkAFTOLumclkyuxA9z7CkINyeMW-M1gf98w/exec";
+const scriptBase = "https://script.google.com/macros/s/AKfycbxnSvSD0pYV4eU2b9ZWpmbaZvZSY9KOa2xGAX0sN_7iKChxJ8NdxxmpSJDqr58mvGfBVg/exec";
 
 if (!email) {
   document.getElementById("titre").innerText = "Email manquant ❌";
