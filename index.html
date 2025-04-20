@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pointage - Bimo Park</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>BIMO PARK</h1>
+      <nav>
+        <a href="https://www.bimopark.com" target="_blank">Site Officiel</a>
+        <a href="mailto:contact@bimopark.com">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2 id="titre">Chargement...</h2>
+    </section>
+
+    <section id="buttons" class="btn-group"></section>
+
+    <section id="arrivee-container" class="input-container">
+      <label for="lieu">Lieu d'arrivée :</label>
+      <select id="lieu">
+        <option value="Bureau">Bureau</option>
+        <option value="Autre">Autre</option>
+      </select>
+      <input id="autre-lieu" type="text" placeholder="Si autre, précisez...">
+      <button id="envoyer-arrivee">Envoyer</button>
+    </section>
+
+    <section id="urgence-container" class="input-container">
+      <label for="raison">Raison d'urgence :</label>
+      <input id="raison" type="text" placeholder="Entrez la raison">
+      <button id="envoyer-urgence">Envoyer</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Bimo Park. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
